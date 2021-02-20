@@ -10,14 +10,13 @@ The purpose of our project is to create a home device that would interface with 
 
 ## Table of Content
 - [Installation](#Installation)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
 - [Usage](#Usage)
-  * [Sub-heading](#sub-heading-1)
-    + [Sub-sub-heading](#sub-sub-heading-1)
 - [Development Setup](#Development-Setup)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+- [Physical Setup](#Physical-Setup)
+- [Network Setup](#Network-Setup)
+- [AWS Functionalities](#AWS-Functionalities)
+
+
 
 
 
