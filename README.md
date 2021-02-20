@@ -9,10 +9,10 @@ The purpose of our project is to create a home device that would interface with 
 ![](header.png)
 
 ## Table of Content
-- [Heading](#heading)
+- [Installation](#Installation)
   * [Sub-heading](#sub-heading)
     + [Sub-sub-heading](#sub-sub-heading)
-- [Heading](#heading-1)
+- [Usage example](#Usage example)
   * [Sub-heading](#sub-heading-1)
     + [Sub-sub-heading](#sub-sub-heading-1)
 - [Heading](#heading-2)
@@ -86,7 +86,15 @@ To emulate the project, you can set up the breadboard according to the diagram b
 
 ## AWS Functionalities
 
-One of the objectives of this project was to make use of AWS cloud services to learn of their functionalities. The following are the various 
+One of the objectives of this project was to make use of AWS cloud services to learn of their functionalities. The following are the various functionalities we have used and what they were used for.
+
+* IOT Core
+* S3
+* AWS Rekognition
+* Dynamodb
+* EC2
+* Simple Notification System
+
 
 ## Meta
 
