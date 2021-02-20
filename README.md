@@ -1,12 +1,11 @@
-# Product Name
-> Short blurb about what your product does.
+# HAY Smart Home & Lock Service
+> HAY is a smart home and lock device which is capable of managing Internet Of Things (IOT) devices in the house and door. Our project utilises AWS cloud services, including but not limited to, AWS Rekognition, deploying web servers, S3 buckets.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
-
+The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS.
 ![](header.png)
 
 ## Installation
@@ -76,3 +75,5 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+
+
