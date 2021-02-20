@@ -5,29 +5,23 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-
-
-
-
-Heading
-Sub-heading
-Sub-sub-heading
-Heading
-Sub-heading
-Sub-sub-heading
-Heading
-Sub-heading
-Sub-sub-heading
-
-
-
-
-
-
-
-
 The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS.
 ![](header.png)
+
+## Table of Content
+- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
+
+
+
 
 ## Installation
 
@@ -79,7 +73,20 @@ The following parts were used in this project:
 * One 330Ω and 10kΩ resistor
 * Sufficient Wires
 
-To emulate the project, you can setup the breadboard according to the diagram below.
+To emulate the project, you can set up the breadboard according to the diagram below.
+
+![Fritzing Diagram](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+
+## Network Setup
+* Raspberry PI
+* EC2 Linux Machine
+* MQTT AWS Broker
+
+
+
+## AWS Functionalities
+
+One of the objectives of this project was to make use of AWS cloud services to learn of their functionalities. The following are the various 
 
 ## Meta
 
