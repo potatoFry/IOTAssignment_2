@@ -12,10 +12,10 @@ The purpose of our project is to create a home device that would interface with 
 - [Installation](#Installation)
   * [Sub-heading](#sub-heading)
     + [Sub-sub-heading](#sub-sub-heading)
-- [Usage example](#Usage example)
+- [Usage](#Usage)
   * [Sub-heading](#sub-heading-1)
     + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
+- [Development Setup](#Development Setup)
   * [Sub-heading](#sub-heading-2)
     + [Sub-sub-heading](#sub-sub-heading-2)
 
@@ -37,13 +37,13 @@ Python Flask Server (Linux Machine):
 git clone https://github.com/potatoFry/IOTAssignment_2
 ```
 
-## Usage example
+## Usage
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
+## Development Setup
 
 To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
 
