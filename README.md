@@ -5,6 +5,27 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
+
+
+
+
+Heading
+Sub-heading
+Sub-sub-heading
+Heading
+Sub-heading
+Sub-sub-heading
+Heading
+Sub-heading
+Sub-sub-heading
+
+
+
+
+
+
+
+
 The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS.
 ![](header.png)
 
