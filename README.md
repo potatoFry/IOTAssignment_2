@@ -10,16 +10,16 @@ The purpose of our project is to create a home device that would interface with 
 
 ## Installation
 
-OS X & Linux:
+Raspberry Pi:
 
 ```sh
-npm install my-crazy-module --save
+git clone https://github.com/potatoFry/IOTAssignment_2
 ```
 
-Windows:
+Python Flask Server (Linux Machine):
 
 ```sh
-edit autoexec.bat
+git clone https://github.com/potatoFry/IOTAssignment_2
 ```
 
 ## Usage example
@@ -30,27 +30,35 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
 
+Python Flask Server
 ```sh
-make install
-npm test
+python3.8 -m web-venv ~/WebServerDirectory #creating a virtual environment
+source ~/WebServerDirectory/web-venv #activate the virtual environment
+pip3 install boto3 flask AWSIoTPythonSDK
 ```
 
-## Release History
+Raspberry Pi
+```sh
+python3.8 -m web-venv ~/RaspberryPiDirectory #creating a virtual environment
+source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
+pip3 AWSIoTPythonSDK botocore awscli
+```
+## Physical Setup
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+The following parts were used in this project:
+
+* DHT11
+* Button
+* I2C 16x2 LCD Screen
+* YL-83 Rain Sensor - Control Board
+* YL-83 Rain Sensor - Detection Board
+* Tower Pro SG90 Servo
+* One 330Ω and 10kΩ resistor
+* Sufficient Wires
+
+To emulate the project, you can setup the breadboard according to the diagram below.
 
 ## Meta
 
