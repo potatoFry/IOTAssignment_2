@@ -152,7 +152,9 @@ To emulate the project, you can set up the breadboard according to the diagram b
 
 ![Fritzing Design](./images/fritzing.jpeg)
 
-## Additional Libraries R
+## Additional Libraries Required
+
+
 
 ## Meta
 
