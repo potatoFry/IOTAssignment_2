@@ -159,9 +159,43 @@ pip install AWSIoTPythonSDK botocore awscli
 ```
 
 ## Source Code Explanation
+
 ### Python Web Server
 
 ### Raspberry PI
+
+Main.py - The main function is found in this file. It role it to be the main program that connects the rest of the other functions into one system
+button_face_recognition.py
+added RPI
+.
+main.py
+added RPI
+.
+pub_facial.py
+added RPI
+.
+pub_rain_detected.py
+added RPI
+.
+pub_sub_sign.py
+added RPI
+.
+pub_temp.py
+added RPI
+.
+remove_txt.py
+added RPI
+rpi_configure.py
+added RPI
+sub_rain.py
+added RPI
+subscription.py
+added RPI
+turn_90.py
+
+
+
+
 
 ## Task List
 Name of member | Part of project worked on | Contribution percentage
@@ -179,6 +213,6 @@ Project Link: https://github.com/potatoFry/IOTAssignment_2
 ## References
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-3-brightgreen
 [contributors-url]: https://github.com/potatoFry/IOTAssignment_2/graphs/contributors
 
