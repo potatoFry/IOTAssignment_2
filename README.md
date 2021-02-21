@@ -26,6 +26,8 @@ The purpose of our project is to create a home device that would interface with 
 - [Software Checklist](#Software-Checklist)
 - [Software Setup Instructions](#Software-Setup-Instructions)
 - [Source Codes](#Source-Codes)
+  * [Python Web Server](#Python-Web-Server)
+  * [Raspberry PI](#Raspberry-PI)
 - [Task List](#Task-List)
 - [References](#References)
 
@@ -162,32 +164,35 @@ pip install AWSIoTPythonSDK botocore awscli
 
 ### Python Web Server
 
+* server.py - main web server which handles API calls as well as calls connects the rest of the python files
+* pub_sign.py - publishes the user inputted data from the web server to topic, output/sign,  so that the RPI can retrieve data and display on LCD screen
+* pub_moveWindow.py - publishes to topic, sensors/motor,  based on what button the user presses on the web page. If open button is pressed, “OPEN” string is sent, if close button is pressed, “CLOSED” string is sent 
+* sub_signValue.py - subscribes to the topic, input/sign,  to retrieve updates on the value of LCD screen to show to user what is shown on LCD
+* sub_temp.py - subscribe to the topic , sensors/dht,  to retrieve real time values from the Raspberry PI
+* dynamodb.py - retrieves the dynamodb from the AWS DynamoDB service to display historic data on the graph
+* jsonconverter.py - process the information retrieve from the database to send to the web server to display as graph
+
 ### Raspberry PI
 
-Main.py - The main function is found in this file. It role it to be the main program that connects the rest of the other functions into one system
-button_face_recognition.py
-added RPI
-.
-main.py
-added RPI
-.
-pub_facial.py
-added RPI
-pub_rain_detected.py
-added RPI
-pub_sub_sign.py
-added RPI
-pub_temp.py
-added RPI
-remove_txt.py
-added RPI
-rpi_configure.py
-added RPI
-sub_rain.py
-added RPI
-subscription.py
-added RPI
-turn_90.py
+* Main.py - The main function is found in this file. It role it to be the main program that connects the rest of the other functions into one system
+
+* button_face_recognition.py  - Presses button to take photo of user to send to s3 buckets for facial rekognition
+* pub_facial.py - Sends the facial features and the public photo MQTT message to topic for SNS 
+
+* pub_rain_detected.py - Sends a SNS alert to users when rain is detected and at the same time activates shields to close the windows
+
+* pub_sub_sign.py - Retrieves user input(String) from the web server to display onto the LCD. Publishes the LCD value to a topic so the web server can retrieve it and display it on the web server itself
+
+* pub_temp.py - Retrieves data from the DHIT and publishes the data to a topic to display on the web server
+
+* remove_txt.py - To remove a file called led.txt which is used for the LCD function
+
+* rpi_configure.py - To set up the rpi connection with AWS Cloud services
+* sub_rain.py - Subscribe to a topic to receive information from the server to use the motors
+
+* subscription.py - Contains all the function relating to subscribing
+
+* turn_90.py - Uses the motors to shift to an angle
 
 
 
@@ -200,10 +205,10 @@ Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from web 
 Muhammad Harith | Publish DHT temperature & humidity <br/> Retrieve DHT values from DynamoDB to display historic graph <br/> Retrieve DHT values from topic through MQTT as real time values <br/> Video Editor + README.md | 33.3
 Yuki Kong | Send photo to s3 bucket for Facial Rekognition <br/> Retrieve values and send to SNS with public s3 bucket URL <br/> Change and Display LED sign on RPI from Web Server <br/> Helped with Video + README.md Editor  | 33.3
 
-##Contact
-MuhdHarith - HARITHSAMRI.18@ichat.sp.edu.sg
-	potatoFry - yukikong.18@ichat.sp.edu.sg
-	underkiller - JUNIOR.18@ichat.sp.edu.sg
+## Contact
+MuhdHarith - HARITHSAMRI.18@ichat.sp.edu.sg </br>
+	potatoFry - yukikong.18@ichat.sp.edu.sg </br>
+	underkiller - JUNIOR.18@ichat.sp.edu.sg </br>
 
 Project Link: https://github.com/potatoFry/IOTAssignment_2 
 ## References
