@@ -48,7 +48,7 @@ cd IOT_WebServer #all files in Web Server can be found in this folder
 
 Below is our final RPI Hardware Set-up with the use of 6 actuators and sensors.
 
-![RPI Setup](./images/actualSetUp.jpeg)
+![RPI Setup](./images/actualSetUp.jpg)
 
 
 ## Web Application
