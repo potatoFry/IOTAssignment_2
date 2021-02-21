@@ -76,6 +76,17 @@ To emulate the project, you can set up the breadboard according to the diagram b
 
 ![Fritzing Diagram](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
 
+##Web Application
+Index.HTML
+![Index Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+
+Sign.HTML
+![Sign Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+
+##System Architecture
+![System Design](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+
+
 ## Network Setup
 * Raspberry PI
 * EC2 Linux Machine
@@ -93,6 +104,13 @@ One of the objectives of this project was to make use of AWS cloud services to l
 * Dynamodb
 * EC2
 * Simple Notification System
+
+## Evidence for Basic Requirement
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 
 
 ## Meta
