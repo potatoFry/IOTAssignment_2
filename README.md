@@ -15,6 +15,12 @@ The purpose of our project is to create a home device that would interface with 
 - [System Architecture](#System-Architecture)
 - [Network Setup](#Network-Setup)
 - [AWS Functionalities](#AWS-Functionalities)
+*[IOT Core](#IOT-Core)
+*[S3](#S3)
+*[AWS Rekognition](#AWS-Rekognition)
+*[Dynamodb](#Dynamodb)
+*[EC2](#EC2)
+*[Simple Notification System](Simple-Notification-System)
 - [Evidence For Basic Requirement](#Evidence-For-Basic-Requirement)
 - [Bonus Feature](#Bonus-Feature)
 - [Quick-Start Guide](#Quick-Start-Guide)
@@ -146,7 +152,7 @@ To emulate the project, you can set up the breadboard according to the diagram b
 
 ![Fritzing Design](./images/fritzing.jpeg)
 
-
+## Software
 
 ## Meta
 
