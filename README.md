@@ -3,7 +3,7 @@
 
 ## Links
 * Youtube Link: https://youtu.be/oL2uigArgJc
-* Public tutorial Link: https://github.com/potatoFry/IOTAssignment_2#Python-Web-Server
+* Public tutorial Link: https://github.com/potatoFry/IOTAssignment_2
 
 The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Moreover, home owners who also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS. With this we can receive alerts regardless of geolocation.
 
