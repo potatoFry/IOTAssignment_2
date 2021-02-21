@@ -4,7 +4,7 @@
 
 The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS. With this we can receive alerts regardless of geolocation.
 
-[![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][contributors-url] ![rating](https://img.shields.io/badge/rating-★★★★☆-brightgreen)
 
 ## Table of Content
 - [Installation](#Installation)
@@ -173,16 +173,12 @@ added RPI
 .
 pub_facial.py
 added RPI
-.
 pub_rain_detected.py
 added RPI
-.
 pub_sub_sign.py
 added RPI
-.
 pub_temp.py
 added RPI
-.
 remove_txt.py
 added RPI
 rpi_configure.py
@@ -215,4 +211,4 @@ Project Link: https://github.com/potatoFry/IOTAssignment_2
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-3-brightgreen
 [contributors-url]: https://github.com/potatoFry/IOTAssignment_2/graphs/contributors
-
+[rating-shield]https://img.shields.io/badge/rating-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-brightgreen
