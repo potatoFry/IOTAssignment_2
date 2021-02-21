@@ -50,10 +50,12 @@ Index.HTML
 ![Index Page](./index.jpeg)
 
 Sign.HTML
-![Sign Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+![Index Page](./sign.jpeg)
+
 
 ## System Architecture
-![System Design](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+![System Design](./systemDesign.JPG)
+
 
 
 ## Network Setup
@@ -70,6 +72,7 @@ One of the objectives of this project was to make use of AWS cloud services to l
 * IOT Core
 This is used for a majority of the main IOT features. The IOT Core service makes use of MQTT messages in order to send data between the EC2 instance and the Raspberry Pi.
 * S3
+The S3 Bucket allows our program to store images into it. In the context of our Smart Home System, these photos are the photos of visitors who click the but
 * AWS Rekognition
 * Dynamodb
 * EC2
@@ -126,7 +129,8 @@ The following parts were used in this project:
 
 To emulate the project, you can set up the breadboard according to the diagram below.
 
-![Fritzing Diagram](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+![Fitzing Design](./fitzing.jpeg)
+
 
 
 ## Meta
