@@ -135,15 +135,7 @@ The following parts were used in this project:
 
 To emulate the project, you can set up the breadboard according to the diagram below.
 
-![Fritzing Design](./images/fritzing.jpeg)
-
-## Software Checklist
-
-* AWSIoTPythonSDK
-* Paho-mqtt
-* awscli
-* botocore
-
+![Fritzing Design](./images/fritzing.jpg)
 
 ## Software Setup Instructions
 To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
@@ -159,7 +151,7 @@ Raspberry Pi
 ```sh
 python3.8 -m web-venv ~/RaspberryPiDirectory #creating a virtual environment
 source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
-pip3 AWSIoTPythonSDK botocore awscli
+pip3 install AWSIoTPythonSDK botocore awscli
 ```
 
 ## Task List
