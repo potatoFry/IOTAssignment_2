@@ -132,7 +132,7 @@ The following parts were used in this project:
 * YL-83 Rain Sensor - Detection Board
 * Tower Pro SG90 Servo
 * Pi Camera
-* One 330Ω and 10kΩ resistor
+* One 330Ω and 10kΩ resistor
 * Sufficient Wires
 
 To emulate the project, you can set up the breadboard according to the diagram below.
@@ -165,5 +165,6 @@ Name of member | Part of project worked on | Contribution percentage
 Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from web page <br/>Created main program in RPI <br/> Helped with Video + README.md | 33.3
 Muhammad Harith | Publish DHT temperature & humidity <br/> Retrieve DHT values from DynamoDB to display historic graph <br/> Retrieve DHT values from topic through MQTT as real time values <br/> Video Editor + README.md | 33.3
 Yuki Kong | Send photo to s3 bucket for Facial Rekognition <br/> Retrieve values and send to SNS with public s3 bucket URL <br/> Change and Display LED sign on RPI from Web Server <br/> Helped with Video + README.md Editor  | 33.3
-## References
 
+## References
+Yuki Kong for being best readme editor
