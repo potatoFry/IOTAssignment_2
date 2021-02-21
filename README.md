@@ -69,25 +69,27 @@ Sign.HTML
 
 One of the objectives of this project was to make use of AWS cloud services to learn of their functionalities. The following are the various functionalities we have used and what they were used for.
 
-* IOT Core
+- IOT Core
+
 This is used for a majority of the main IOT features. The IOT Core service makes use of MQTT messages in order to send data between the EC2 instance and the Raspberry Pi.
-* S3
+
+- S3
 
 The S3 Bucket allows our program to store images into it. In the context of our Smart Home System, these photos are taken when the button is clicked and then sent to the AWS S3 Bucket.
 
-* AWS Rekognition
+- AWS Rekognition
 
 AWS Rekognition provides basic facial recognition technology, being able to distinguish faces and tell basic features such as facial hair or emotion. These features are sent to the house owner using the Simple Notification System.
 
-* Dynamodb
+- Dynamodb
 
 The Dynamodb database allows the storing of basic values. We have used Dynamodb to store the values of temperature at different times in the day. The last 10 values are then displayed in the form of a graph on the web display.
 
-* EC2
+- EC2
 
 An EC2 instance was used to host the web server in the cloud. The EC2 instance is essentially a virtual machine hosted on the cloud so that it is not necessary to run it on the Raspberry Pi. 
 
-* Simple Notification System
+- Simple Notification System
 
 The Simple Notification System service allows sending of emails or messages to specific devices. This was used in the project to send homeowners emails whenever a visitor clicks a button. The email contains a picture of the visitor as well as details of the visitor that was obtained from Rekognition.
 
@@ -101,8 +103,8 @@ Provide real-time sensor value / status | Shows real-time value of LED and Tempe
 Provide historical sensor value / status | Shows historical value of Temperature sensor
 Control actuator | Controls Tower ProSG90 Servo motor from web server by button
 ## Bonus Feature
-* use of 6 actuators & sensors
-* use if 6 AWS Cloud services
+* Use of 6 actuators & sensors
+* Use of 6 AWS Cloud services
 * Control more than 1 actuator
 * View more than 1 real-time state 
 
