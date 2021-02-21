@@ -157,8 +157,7 @@ pip install AWSIoTPythonSDK botocore awscli
 ## Task List
 Name of member | Part of project worked on | Contribution percentage
 ------------- | -------------  | -------------
-Aloysius Junior  | Rain Detector to SNS message.
-Controlling motor from webpage (RPI)| 33.3
+Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from webpage (RPI)<br/>Creating main program.py in RPI | 33.3
 Muhammad Harith | asdasd | 33.3
 Yuki Kong | dasdasd | 33.3
 ## References
