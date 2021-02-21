@@ -121,7 +121,7 @@ Control actuator | Controls Tower ProSG90 Servo motor from web server by button
 * View more than 1 real-time state 
 
 ## Quick Start Guide
-1. First connect hardware as in Section Physical Diagram
+1. First connect hardware as in [Physical Setup](#Physical-Setup)
 2. Run the server.py file for the web server in EC2
 3. Run the main.py file in the RaspberryPI
 
