@@ -211,8 +211,8 @@ MuhdHarith - HARITHSAMRI.18@ichat.sp.edu.sg </br>
 	underkiller - JUNIOR.18@ichat.sp.edu.sg </br>
 Project Link: https://github.com/potatoFry/IOTAssignment_2 
 ## References
-https://github.com/othneildrew/Best-README-Template
-https://docs.aws.amazon.com/
+* othneildrew/Best-README-Template: An awesome README template to jumpstart your projects!
+* AWS Documentation
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
