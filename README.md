@@ -50,7 +50,7 @@ Index.HTML
 ![Index Page](./images/index.jpeg)
 
 Sign.HTML
-![Index Page](./sign.jpeg)
+![Sign Page](./images/sign.jpeg)
 
 
 ## System Architecture
