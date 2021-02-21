@@ -24,10 +24,11 @@ The purpose of our project is to create a home device that would interface with 
 - [Evidence For Basic Requirement](#Evidence-For-Basic-Requirement)
 - [Bonus Feature](#Bonus-Feature)
 - [Quick-Start Guide](#Quick-Start-Guide)
-- [Development Setup](#Development-Setup)
 - [Physical Setup](#Physical-Setup)
-- [Network Setup](#Network-Setup)
-- [AWS Functionalities](#AWS-Functionalities)
+- [Software Checklist](#Software-Checklist)
+- [Software Setup Instructions](#Software-Setup-Instructions)
+- [Task List](#Task-List)
+- [References](#References)
 
 
 ## Installation
@@ -161,10 +162,11 @@ source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
 pip3 AWSIoTPythonSDK botocore awscli
 ```
 
-##Task List
+## Task List
 Name of member | Part of project worked on | Contribution percentage
 ------------- | -------------  | -------------
 Aloysius Junior  | dsada | 33.3
 Muhammad Harith | asdasd | 33.3
 Yuki Kong | dasdasd | 33.3
+## References
 
