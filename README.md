@@ -47,7 +47,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 ## Web Application
 
 Index.HTML
-![Index Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
+![Index Page](./index.jpeg)
 
 Sign.HTML
 ![Sign Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
@@ -68,7 +68,7 @@ Sign.HTML
 One of the objectives of this project was to make use of AWS cloud services to learn of their functionalities. The following are the various functionalities we have used and what they were used for.
 
 * IOT Core
-This is used for a majority of the main IOT features. The IOT Core service makes use of MQTT messages in order to send data between 
+This is used for a majority of the main IOT features. The IOT Core service makes use of MQTT messages in order to send data between the EC2 instance and the Raspberry Pi.
 * S3
 * AWS Rekognition
 * Dynamodb
