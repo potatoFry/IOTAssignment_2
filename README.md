@@ -76,14 +76,15 @@ To emulate the project, you can set up the breadboard according to the diagram b
 
 ![Fritzing Diagram](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
 
-##Web Application
+## Web Application
+
 Index.HTML
 ![Index Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
 
 Sign.HTML
 ![Sign Page](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
 
-##System Architecture
+## System Architecture
 ![System Design](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
 
 
@@ -106,10 +107,15 @@ One of the objectives of this project was to make use of AWS cloud services to l
 * Simple Notification System
 
 ## Evidence for Basic Requirement
-First Header  | Second Header
+Requirement  | Evidence
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Used three sensors  | Used DHT11, Button, LCD Screen,Rain Sensor, Tower Pro SG90 Servo
+Used MQTT | Used MQTT to update real-time values on web server
+Used Cloud Service | Used IOT Core, S3, AWS Rekognition, Dynamodb, EC2, SNS
+Provide real-time sensor value / status | Shows real-time value of LED and Temperature sensor
+Provide real-time sensor value / status | Shows historical value of Temperature sensor
+Control actuator | Controls Tower ProSG90 Servo motor from web server by button
+
 
 
 
