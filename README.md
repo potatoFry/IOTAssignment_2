@@ -157,8 +157,8 @@ pip install AWSIoTPythonSDK botocore awscli
 ## Task List
 Name of member | Part of project worked on | Contribution percentage
 ------------- | -------------  | -------------
-Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from webpage (RPI)<br/>Creating main program.py in RPI | 33.3
-Muhammad Harith | Publish DHT temperature & humidity <br/> Retrieve DHT values from DynamoDB to display historic graph <br/> Retrieve DHT values from topic through MQTT as real time values | 33.3
-Yuki Kong | dasdasd | 33.3
+Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from webpage <br/>Creating main program python file in RPI <br/> Help with Video + README.MD | 33.3
+Muhammad Harith | Publish DHT temperature & humidity <br/> Retrieve DHT values from DynamoDB to display historic graph <br/> Retrieve DHT values from topic through MQTT as real time values <br/> Video Editing | 33.3
+Yuki Kong | Send photo to s3 bucket for Facial Rekognition <br/> Retrieve values and send to SNS with public s3 bucket URL <br/> Change and Display LED sign on RPI from Web Server <br/> README.md  | 33.3
 ## References
 
