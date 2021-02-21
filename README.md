@@ -17,7 +17,7 @@ The purpose of our project is to create a home device that would interface with 
 - [AWS Functionalities](#AWS-Functionalities)
 - [Evidence For Basic Requirement](#Evidence-For-Basic-Requirement)
 - [Bonus Feature](#Bonus-Feature)
-- [Quick-Start Guide](#Quick-Start Guide)
+- [Quick-Start Guide](#Quick-Start-Guide)
 - [Development Setup](#Development-Setup)
 - [Physical Setup](#Physical-Setup)
 - [Network Setup](#Network-Setup)
