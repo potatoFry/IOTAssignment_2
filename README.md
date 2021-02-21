@@ -42,40 +42,6 @@ A few motivating and useful examples of how your product can be used. Spice this
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development Setup
-
-To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
-
-Python Flask Server
-```sh
-python3.8 -m web-venv ~/WebServerDirectory #creating a virtual environment
-source ~/WebServerDirectory/web-venv #activate the virtual environment
-pip3 install boto3 flask AWSIoTPythonSDK
-```
-
-Raspberry Pi
-```sh
-python3.8 -m web-venv ~/RaspberryPiDirectory #creating a virtual environment
-source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
-pip3 AWSIoTPythonSDK botocore awscli
-```
-## Physical Setup
-
-The following parts were used in this project:
-
-* DHT11
-* Button
-* I2C 16x2 LCD Screen
-* YL-83 Rain Sensor - Control Board
-* YL-83 Rain Sensor - Detection Board
-* Tower Pro SG90 Servo
-* One 330Ω and 10kΩ resistor
-* Sufficient Wires
-
-To emulate the project, you can set up the breadboard according to the diagram below.
-
-![Fritzing Diagram](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
-
 ## Web Application
 
 Index.HTML
@@ -115,8 +81,49 @@ Used Cloud Service | Used IOT Core, S3, AWS Rekognition, Dynamodb, EC2, SNS
 Provide real-time sensor value / status | Shows real-time value of LED and Temperature sensor
 Provide real-time sensor value / status | Shows historical value of Temperature sensor
 Control actuator | Controls Tower ProSG90 Servo motor from web server by button
+## Bonus Feature
+* use of 6 actuators & sensors
+* use if 6 AWS Cloud services
+* Control more than 1 actuator
+* View more than 1 real-time state 
 
+##Quick-Start Guide
+1. First connect hardware as in Section Physical Diagram
+2. Run the server.py file for the web server in EC2
+3. Run the main.py file in the RaspberryPI
+## Development Setup
 
+To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
+
+Python Flask Server
+```sh
+python3.8 -m web-venv ~/WebServerDirectory #creating a virtual environment
+source ~/WebServerDirectory/web-venv #activate the virtual environment
+pip3 install boto3 flask AWSIoTPythonSDK
+```
+
+Raspberry Pi
+```sh
+python3.8 -m web-venv ~/RaspberryPiDirectory #creating a virtual environment
+source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
+pip3 AWSIoTPythonSDK botocore awscli
+```
+## Physical Setup
+
+The following parts were used in this project:
+
+* DHT11
+* Button
+* I2C 16x2 LCD Screen
+* YL-83 Rain Sensor - Control Board
+* YL-83 Rain Sensor - Detection Board
+* Tower Pro SG90 Servo
+* One 330Ω and 10kΩ resistor
+* Sufficient Wires
+
+To emulate the project, you can set up the breadboard according to the diagram below.
+
+![Fritzing Diagram](https://github.com/potatoFry/IOTAssignment_2/blob/main/[filename]?raw=true)
 
 
 ## Meta
