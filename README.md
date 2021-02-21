@@ -1,12 +1,12 @@
 # HAY Smart Home & Lock Service
-> HAY is a smart home and lock device which is capable of managing Internet Of Things (IOT) devices in the house and door. Our project utilises AWS cloud services, including but not limited to, AWS Rekognition, deploying web servers, S3 buckets. [![Downloads Stats][npm-downloads]][npm-url]
+> HAY is a smart home and lock device which is capable of managing Internet Of Things (IOT) devices in the house and door. Our project utilises AWS cloud services, including but not limited to, AWS Rekognition, deploying web servers, S3 buckets.
 
-The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS. With this we can receive alerts anywhere 
+The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS. With this we can receive alerts regardless of geolocation.
 ![](header.png)
 
 ## Table of Content
 - [Installation](#Installation)
-- [Usage](#Usage)
+- [Final RPI Setup](#Final-RPI-Setup)
 - [Web Application](#Web-Application)
 - [System Architecture](#System-Architecture)
 - [Network Setup](#Network-Setup)
@@ -23,6 +23,7 @@ The purpose of our project is to create a home device that would interface with 
 - [Physical Setup](#Physical-Setup)
 - [Software Checklist](#Software-Checklist)
 - [Software Setup Instructions](#Software-Setup-Instructions)
+- [Source Codes](#Source-Codes)
 - [Task List](#Task-List)
 - [References](#References)
 
@@ -32,20 +33,23 @@ The purpose of our project is to create a home device that would interface with 
 Raspberry Pi:
 
 ```sh
-git clone https://github.com/potatoFry/IOTAssignment_2
+git clone https://github.com/potatoFry/IOTAssignment_2/
+cd IOT_RPI #all files in RPI can be found in this folder
 ```
 
 Python Flask Server (Linux Machine):
 
 ```sh
 git clone https://github.com/potatoFry/IOTAssignment_2
+cd IOT_WebServer #all files in Web Server can be found in this folder
 ```
 
-## Usage
+## Final RPI Setup
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Below is our final RPI Hardware Set-up with the use of 6 actuators and sensors.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+![RPI Setup](./images/actualSetUp.jpeg)
+
 
 ## Web Application
 
@@ -101,6 +105,7 @@ Requirement  | Evidence
 ------------- | -------------
 Used three sensors  | Used DHT11, Button, LCD Screen,Rain Sensor, Tower Pro SG90 Servo
 Used MQTT | Used MQTT to update real-time values on web server
+Stored data in Cloud | Used Cloud Service | Used IOT Core, S3, AWS Rekognition, Dynamodb, EC2, SNS
 Used Cloud Service | Used IOT Core, S3, AWS Rekognition, Dynamodb, EC2, SNS
 Provide real-time sensor value / status | Shows real-time value of LED and Temperature sensor
 Provide historical sensor value / status | Shows historical value of Temperature sensor
@@ -126,6 +131,7 @@ The following parts were used in this project:
 * YL-83 Rain Sensor - Control Board
 * YL-83 Rain Sensor - Detection Board
 * Tower Pro SG90 Servo
+* Pi Camera
 * One 330Ω and 10kΩ resistor
 * Sufficient Wires
 
@@ -149,6 +155,9 @@ python -m venv ~/RaspberryPiDirectory #creating a virtual environment
 source ~/RaspberryPiDirectory/venv #activate the virtual environment
 pip install AWSIoTPythonSDK botocore awscli
 ```
+
+## Source Code Explanation
+
 
 ## Task List
 Name of member | Part of project worked on | Contribution percentage
