@@ -118,23 +118,7 @@ Control actuator | Controls Tower ProSG90 Servo motor from web server by button
 1. First connect hardware as in Section Physical Diagram
 2. Run the server.py file for the web server in EC2
 3. Run the main.py file in the RaspberryPI
-## Development Setup
 
-To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
-
-Python Flask Server
-```sh
-python3.8 -m web-venv ~/WebServerDirectory #creating a virtual environment
-source ~/WebServerDirectory/web-venv #activate the virtual environment
-pip3 install boto3 flask AWSIoTPythonSDK
-```
-
-Raspberry Pi
-```sh
-python3.8 -m web-venv ~/RaspberryPiDirectory #creating a virtual environment
-source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
-pip3 AWSIoTPythonSDK botocore awscli
-```
 ## Physical Setup
 
 The following parts were used in this project:
@@ -152,33 +136,35 @@ To emulate the project, you can set up the breadboard according to the diagram b
 
 ![Fritzing Design](./images/fritzing.jpeg)
 
-## Additional Libraries Required
+## Software Checklist
 
-AWSIoTPythonSDK
+* AWSIoTPythonSDK
+* Paho-mqtt
+* awscli
+* botocore
 
 
-## Meta
+## Software Setup Instructions
+To utilise the application, we will need 1 Raspberry Pi as well as create a EC2 instance with a Linux operating system. The Raspberry Pi will be used to publish real time values such as temperature and humidity, as well as subscribed to topics that will change the LED screen. The EC2 instance will be used to run a python web server which allows users to view real time values from the Raspberry Pi as well as historic values. The python web server allows users to change and edit the LCD screen of the Raspberry Pi as well as.
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Python Flask Server
+```sh
+python3.8 -m web-venv ~/WebServerDirectory #creating a virtual environment
+source ~/WebServerDirectory/web-venv #activate the virtual environment
+pip3 install boto3 flask AWSIoTPythonSDK
+```
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Raspberry Pi
+```sh
+python3.8 -m web-venv ~/RaspberryPiDirectory #creating a virtual environment
+source ~/RaspberryPiDirectory/web-venv #activate the virtual environment
+pip3 AWSIoTPythonSDK botocore awscli
+```
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
-
+##Task List
+Name of member | Part of project worked on | Contribution percentage
+------------- | -------------  | -------------
+Aloysius Junior  | dsada | 33.3
+Muhammad Harith | asdasd | 33.3
+Yuki Kong | dasdasd | 33.3
 
