@@ -209,11 +209,9 @@ Yuki Kong | Send photo to s3 bucket for Facial Rekognition <br/> Retrieve values
 MuhdHarith - HARITHSAMRI.18@ichat.sp.edu.sg </br>
 	potatoFry - yukikong.18@ichat.sp.edu.sg </br>
 	underkiller - JUNIOR.18@ichat.sp.edu.sg </br>
-
 Project Link: https://github.com/potatoFry/IOTAssignment_2 
 ## References
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-3-brightgreen
 [contributors-url]: https://github.com/potatoFry/IOTAssignment_2/graphs/contributors
-[rating-shield]https://img.shields.io/badge/rating-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86-brightgreen
