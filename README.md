@@ -16,17 +16,12 @@ The purpose of our project is to create a home device that would interface with 
 - [Network Setup](#Network-Setup)
 - [AWS Functionalities](#AWS-Functionalities)
 - [Evidence For Basic Requirement](#Evidence-For-Basic-Requirement)
-- [Bonus Feature] (#Bonus-Feature)
-- [Quick-Start Guide] (#Quick-Start Guide)
-- [Development Setup] (#Development-Setup)
+- [Bonus Feature](#Bonus-Feature)
+- [Quick-Start Guide](#Quick-Start Guide)
+- [Development Setup](#Development-Setup)
 - [Physical Setup](#Physical-Setup)
 - [Network Setup](#Network-Setup)
 - [AWS Functionalities](#AWS-Functionalities)
-
-
-
-
-
 
 
 ## Installation
@@ -87,7 +82,7 @@ Used three sensors  | Used DHT11, Button, LCD Screen,Rain Sensor, Tower Pro SG90
 Used MQTT | Used MQTT to update real-time values on web server
 Used Cloud Service | Used IOT Core, S3, AWS Rekognition, Dynamodb, EC2, SNS
 Provide real-time sensor value / status | Shows real-time value of LED and Temperature sensor
-Provide real-time sensor value / status | Shows historical value of Temperature sensor
+Provide historical sensor value / status | Shows historical value of Temperature sensor
 Control actuator | Controls Tower ProSG90 Servo motor from web server by button
 ## Bonus Feature
 * use of 6 actuators & sensors
