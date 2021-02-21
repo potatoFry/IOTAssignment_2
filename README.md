@@ -158,7 +158,7 @@ pip install AWSIoTPythonSDK botocore awscli
 Name of member | Part of project worked on | Contribution percentage
 ------------- | -------------  | -------------
 Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from webpage (RPI)<br/>Creating main program.py in RPI | 33.3
-Muhammad Harith | asdasd | 33.3
+Muhammad Harith | Publish DHT temperature & humidity <br/> Retrieve DHT values from DynamoDB to display historic graph <br/> Retrieve DHT values from topic through MQTT as real time values | 33.3
 Yuki Kong | dasdasd | 33.3
 ## References
 
