@@ -1,8 +1,8 @@
 # HAY Smart Home & Lock Service
-> HAY is a smart home and lock device which is capable of managing Internet Of Things (IOT) devices in the house and door. Our project utilises AWS cloud services, including but not limited to, AWS Rekognition, deploying web servers, S3 buckets.
+> HAY is a smart home and lock device which is capable of managing Internet Of Things (IOT) devices in the house and door. Our project utilises AWS cloud services, including but not limited to, AWS Rekognition, deploying web servers, S3 buckets. [![Contributors][contributors-shield]][contributors-url]
+
 
 The purpose of our project is to create a home device that would interface with IOT devices with useful applications to any households. In the past, home owners were not able to have constant surveillance at the doorstep. However with HAY, home owners will be able to view any visitors or delivery men outside of their door upon a ring of a door bell. Home owners also frequently forget to close their windows resulting in rain pouring in on one unlucky afternoon. However, with our rain detector IOT device, upon detecting raindrops it will automatically close the windows of the house. Our solution makes use of AWS cloud solutions to conduct communications between the Raspberry PI and Python web server as well as utilises many other services in AWS. With this we can receive alerts regardless of geolocation.
-![](header.png)
 
 ## Table of Content
 - [Installation](#Installation)
@@ -132,7 +132,7 @@ The following parts were used in this project:
 * YL-83 Rain Sensor - Detection Board
 * Tower Pro SG90 Servo
 * Pi Camera
-* One 330Ω and 10kΩ resistor
+* One 330Ω and 10kΩ resistor
 * Sufficient Wires
 
 To emulate the project, you can set up the breadboard according to the diagram below.
@@ -157,7 +157,9 @@ pip install AWSIoTPythonSDK botocore awscli
 ```
 
 ## Source Code Explanation
+### Python Web Server
 
+### Raspberry PI
 
 ## Task List
 Name of member | Part of project worked on | Contribution percentage
@@ -166,5 +168,11 @@ Aloysius Junior  | Rain Detector to SNS message.<br/>Controlling motor from web 
 Muhammad Harith | Publish DHT temperature & humidity <br/> Retrieve DHT values from DynamoDB to display historic graph <br/> Retrieve DHT values from topic through MQTT as real time values <br/> Video Editor + README.md | 33.3
 Yuki Kong | Send photo to s3 bucket for Facial Rekognition <br/> Retrieve values and send to SNS with public s3 bucket URL <br/> Change and Display LED sign on RPI from Web Server <br/> Helped with Video + README.md Editor  | 33.3
 
+##Contact
+MuhdHarith - HARITHSAMRI.18@ichat.sp.edu.sg
+	potatoFry - yukikong.18@ichat.sp.edu.sg
+	underkiller - JUNIOR.18@ichat.sp.edu.sg
+
+Project Link: https://github.com/potatoFry/IOTAssignment_2 
 ## References
-Yuki Kong for being best readme editor
+
