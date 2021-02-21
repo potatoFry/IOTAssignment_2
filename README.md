@@ -11,7 +11,14 @@ The purpose of our project is to create a home device that would interface with 
 ## Table of Content
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Development Setup](#Development-Setup)
+- [Web Application](#Web-Application)
+- [System Architecture](#System-Architecture)
+- [Network Setup](#Network-Setup)
+- [AWS Functionalities](#AWS-Functionalities)
+- [Evidence For Basic Requirement](#Evidence-For-Basic-Requirement)
+- [Bonus Feature] (#Bonus-Feature)
+- [Quick-Start Guide] (#Quick-Start Guide)
+- [Development Setup] (#Development-Setup)
 - [Physical Setup](#Physical-Setup)
 - [Network Setup](#Network-Setup)
 - [AWS Functionalities](#AWS-Functionalities)
@@ -66,6 +73,7 @@ Sign.HTML
 One of the objectives of this project was to make use of AWS cloud services to learn of their functionalities. The following are the various functionalities we have used and what they were used for.
 
 * IOT Core
+This is used for a majority of the main IOT features. The IOT Core service makes use of MQTT messages in order to send data between 
 * S3
 * AWS Rekognition
 * Dynamodb
@@ -87,7 +95,7 @@ Control actuator | Controls Tower ProSG90 Servo motor from web server by button
 * Control more than 1 actuator
 * View more than 1 real-time state 
 
-##Quick-Start Guide
+## Quick-Start Guide
 1. First connect hardware as in Section Physical Diagram
 2. Run the server.py file for the web server in EC2
 3. Run the main.py file in the RaspberryPI
